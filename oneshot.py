@@ -983,6 +983,8 @@ class WiFiScanner:
                 print(colored(line, color='red'))
             elif self.vuln_list and (model in self.vuln_list):
                 print(colored(line, color='green'))
+                proc = subprocess.Popen('termux-vibrate -f', shell=True) #vibrate notification
+                proc = subprocess.Popen('termux-media-player play audio/file', shell=True) #sound notification
             else:
                 print(line)
 
