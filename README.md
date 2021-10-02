@@ -1,7 +1,7 @@
 # OneShot for Termux with vibro/sound notification
 
 ## [For sound notification line #987 must be edited by yourself "audio/file"](https://github.com/jevgenyonegin/OneShot_Termux_light_mod/commit/a8d96f6f0638add3dfdbf77e342a2aaa90217ce5)
-
+Termux: nano -l oneshot.py > Ctrl+o > Ctrl+x
 # Overview
 **OneShot** performs [Pixie Dust attack](https://forums.kali.org/showthread.php?24286-WPS-Pixie-Dust-Attack-Offline-WPS-Attack) without having to switch to monitor mode.
 # Features
