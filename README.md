@@ -83,5 +83,7 @@ Launch online WPS bruteforce with the specified first half of the PIN:
 # Acknowledgements
 ## Special Thanks
 * `rofl0r` for initial implementation;
+* `drygdryg` for developing OneShot
 * `Monohrom` for testing, help in catching bugs, some ideas;
-* `Wiire` for developing Pixiewps.
+* `Wiire` developing Pixiewps;
+* `eda-abec` for vulwsc updates.
