@@ -16,14 +16,9 @@ Termux: nano -l oneshot.py > Ctrl+o > Ctrl+x
  - [iw](https://wireless.wiki.kernel.org/en/users/documentation/iw).
 # Setup
 
-## [Termux](https://play.google.com/store/apps/details?id=com.termux)
+## [Termux](https://f-droid.org/en/packages/com.termux/)
 Please note that root access is required.  
 
-#### Using installer
- ```
- curl -sSf https://raw.githubusercontent.com/drygdryg/OneShot_Termux_installer/master/installer.sh | bash
- ```
-#### Manually
 **Installing requirements**
  ```
  pkg install -y root-repo
@@ -31,7 +26,7 @@ Please note that root access is required.
  ```
 **Getting OneShot**
  ```
- git clone --depth 1 https://github.com/drygdryg/OneShot OneShot
+ git clone --depth 1 https://github.com/jevgenyonegin/OneShot_Termux_light_mod OneShot
  ```
 #### Running
  ```
