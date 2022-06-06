@@ -9,6 +9,10 @@ pkg install play-audio
 ```
 Edit line [#987](https://github.com/jevgenyonegin/OneShot_Termux_light_mod/commit/a8d96f6f0638add3dfdbf77e342a2aaa90217ce5) replacing "termux-media-player play" with "play-audio"
 
+As example:
+```
+proc = subprocess.Popen('play-audio knock.ogg', shell=True)
+```
 # Overview
 **OneShot** performs [Pixie Dust attack](https://forums.kali.org/showthread.php?24286-WPS-Pixie-Dust-Attack-Offline-WPS-Attack) without having to switch to monitor mode.
 # Features
