@@ -65,6 +65,7 @@ Please note that root access is required.
      --iface-down             : Down network interface when the work is finished
      -l, --loop               : Run in a loop
      -v, --verbose            : Verbose output
+     --pbc                    : Run WPS push button connection
  ```
 
 ## Usage examples
