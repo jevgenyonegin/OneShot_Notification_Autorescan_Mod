@@ -1,13 +1,13 @@
 # OneShot for Termux with vibro/sound notification
 
-## [For sound notification line #1017 must be edited by yourself "audio/file"](https://github.com/jevgenyonegin/OneShot_Termux_light_mod/blob/0d220cf7c127fd4f844149aeea85e5f414220979/oneshot.py#L1017)
+## [For sound notification line #1017 must be edited by yourself "audio/file"](https://github.com/jevgenyonegin/OneShot_Termux_mod/blob/a6945762868be66925fe6bcc0ab03aac36551321/oneshot.py#L1017)
 Termux: nano -l +1017 oneshot.py > make changes > Ctrl+o > Ctrl+x
 
 ## This method not working on MIUI roms (or maybe some others), so there is another way to at least play sound
 ```
 pkg install play-audio
 ```
-Edit line [#1017](https://github.com/jevgenyonegin/OneShot_Termux_light_mod/blob/0d220cf7c127fd4f844149aeea85e5f414220979/oneshot.py#L1017) replacing "termux-media-player play" with "play-audio"
+Edit line [#1017](https://github.com/jevgenyonegin/OneShot_Termux_mod/blob/a6945762868be66925fe6bcc0ab03aac36551321/oneshot.py#L1017) replacing "termux-media-player play" with "play-audio"
 
 As example:
 ```
