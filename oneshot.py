@@ -1014,7 +1014,7 @@ class wifiscanner:
             elif self.vuln_list and (model in self.vuln_list):
                 print(colored(line, color='green'))
                 proc = subprocess.popen('termux-vibrate -f', shell=true)
-                proc = subprocess.popen('termux-play-audio play audio/file', shell=true)
+                proc = subprocess.popen('termux-media-player play audio/file', shell=true)
             else:
                 print(line)
 
