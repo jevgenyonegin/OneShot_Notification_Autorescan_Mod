@@ -37,7 +37,7 @@ Please note that root access is required.
  ```
 **Getting OneShot**
  ```
- git clone --depth 1 https://github.com/jevgenyonegin/OneShot_Termux_light_mod OneShot
+ git clone --depth 1 https://github.com/jevgenyonegin/OneShot_Termux_mod OneShot
  ```
 #### Running
  ```
