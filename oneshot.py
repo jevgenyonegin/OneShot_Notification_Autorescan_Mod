@@ -986,9 +986,9 @@ class wifiscanner:
         if self.vuln_list:
             print('network marks: {1} {0} {2} {0} {3}'.format(
                 '|',
-                colored('possibly vulnerable', color='green'),
-                colored('wps locked', color='red'),
-                colored('already stored', color='yellow')
+                colored('Possibly vulnerable', color='green'),
+                colored(WPD locked', color='red'),
+                colored('Stored', color='yellow')
             ))
         print('networks list:')
         print('{:<4} {:<18} {:<25} {:<8} {:<4} {:<27} {:<}'.format(
@@ -1014,7 +1014,7 @@ class wifiscanner:
             elif self.vuln_list and (model in self.vuln_list):
                 print(colored(line, color='green'))
                 proc = subprocess.popen('termux-vibrate -f', shell=true)
-                proc = subprocess.popen('termux-play-audio play knock.ogg', shell=true)
+                proc = subprocess.popen('termux-play-audio play audio/file', shell=true)
             else:
                 print(line)
 
