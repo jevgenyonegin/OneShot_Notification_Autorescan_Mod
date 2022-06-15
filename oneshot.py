@@ -451,7 +451,8 @@ class Companion:
         (b, address) = self.retsock.recvfrom(4096)
         inmsg = b.decode('utf-8', errors='replace')
         return inmsg
-
+   
+    @staticmethod
     def _explain_wpas_not_ok_status(command: str, respond: str):
         if command.startswith(('WPS_REG', 'WPS_PBC')):
             if respond == 'UNKNOWN COMMAND':
