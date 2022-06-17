@@ -55,6 +55,7 @@ Please note that root access is required.
      -p, --pin=<wps pin>      : Use the specified pin (arbitrary string or 4/8 digit pin)
      -K, --pixie-dust         : Run Pixie Dust attack
      -B, --bruteforce         : Run online bruteforce attack
+     --pbc                    : Run WPS push button connection
 
  Advanced arguments:
      -d, --delay=<n>          : Set the delay between pin attempts [0]
@@ -64,8 +65,9 @@ Please note that root access is required.
      --vuln-list=<filename>   : Use custom file with vulnerable devices list ['vulnwsc.txt']
      --iface-down             : Down network interface when the work is finished
      -l, --loop               : Run in a loop
+     --mtk-wifi               : Activate MediaTek Wi-Fi interface driver on startup and deactivate it on exit
+                                (for internal Wi-Fi adapters implemented in MediaTek SoCs). Turn off Wi-Fi in the system settings before using this.
      -v, --verbose            : Verbose output
-     --pbc                    : Run WPS push button connection
  ```
 
 ## Usage examples
