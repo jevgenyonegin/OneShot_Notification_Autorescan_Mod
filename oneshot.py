@@ -438,8 +438,13 @@ class Companion:
         self.wpas = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE,
                                      stderr=subprocess.STDOUT, encoding='utf-8', errors='replace')
         # Waiting for wpa_supplicant control interface initialization
-        while not os.path.exists(self.wpas_ctrl_path):
-            pass
+        while True:
+            ret = self.wpas.poll()
+            if ret is not None and ret != 0:
+                raise ValueError('wpa_supplicant returned an error: ' + self.wpas.communicate()[0])
+            if os.path.exists(self.wpas_ctrl_path):
+                break
+            time.sleep(.1)
 
     def sendOnly(self, command):
         """Sends command to wpa_supplicant"""
