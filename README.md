@@ -33,7 +33,7 @@ Please note that root access is required.
 **Installing requirements**
  ```
  pkg install -y root-repo
- pkg install -y git tsu python wpa-supplicant pixiewps iw
+ pkg install -y git tsu python wpa-supplicant pixiewps iw openssl
  ```
 **Getting OneShot**
  ```
