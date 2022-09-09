@@ -98,8 +98,8 @@ sudo sh -c 'echo 1 > /dev/wmtWifi'
 # Acknowledgements
 ## Special Thanks
 * `rofl0r` for initial implementation;
-* **drygdryg** for developing OneShot;
+* **`drygdryg` for developing OneShot**;
 * `Monohrom` for testing, help in catching bugs, some ideas;
 * `Wiire` developing Pixiewps;
-* **eda-abec** for vulwsc updates and support;
+* **`eda-abec` for vulwsc updates and support**;
 * `vilvius31` for project support;
