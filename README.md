@@ -1,19 +1,13 @@
 # OneShot for Termux with vibro/sound notification
 
+## FIRST
+```
+pkg install play audio
+```
 ## [For sound notification (line #1041) you can use your own audio file "sonar.mp3"]
 https://github.com/jevgenyonegin/OneShot_Notification_Mod/blob/0f398bd999869767c3b81899241baa6d381b2b42/oneshot.py#L1041
 Termux: nano -l +1041 oneshot.py > make changes > Ctrl+o > Ctrl+x or simply replace sonar.mp3 with your *.mp3 file
 
-## This method not working on MIUI roms (or maybe some others), so there is another way to at least play sound
-```
-pkg install play-audio
-```
-Edit line [#1041](https://github.com/jevgenyonegin/OneShot_Termux_mod/blob/ee1485babb5a0e51e2b886d24d579e39af1e8abe/oneshot.py#L1041) replacing "termux-media-player play" with "play-audio"
-
-As example:
-```
-proc = subprocess.Popen('play-audio sonar.mp3', shell=True)
-```
 # Overview
 **OneShot** performs [Pixie Dust attack](https://forums.kali.org/showthread.php?24286-WPS-Pixie-Dust-Attack-Offline-WPS-Attack) without having to switch to monitor mode.
 # Features
