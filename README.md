@@ -1,6 +1,6 @@
 # OneShot for Termux with vibro/sound notification
 
-## FIRST
+## FIRST!
 ```
 pkg install play audio
 ```
@@ -28,7 +28,7 @@ Please note that root access is required.
 **Installing requirements**
  ```
  pkg install -y root-repo
- pkg install -y git tsu python wpa-supplicant pixiewps iw openssl
+ pkg install -y git tsu python wpa-supplicant pixiewps iw openssl play-audio
  ```
 **Getting OneShot**
  ```
