@@ -1,4 +1,4 @@
-# OneShot for Termux with vibro/sound notification and 10 second delay between auto-rescan
+# OneShot for Termux with vibro/sound notification and 10 seconds delay between auto-rescan
 
 ## FIRST!
 ```
