@@ -11,9 +11,10 @@ Termux: nano -l +1041 oneshot.py > make changes > Ctrl+o > Ctrl+x or simply repl
 # Overview
 **OneShot** performs [Pixie Dust attack](https://forums.kali.org/showthread.php?24286-WPS-Pixie-Dust-Attack-Offline-WPS-Attack) without having to switch to monitor mode.
 # Features
-oneshot.py - based on drygdryg project with sound and rescan
-oneshot1.py - without rescan 
-oneshot2.py - detecting some vulnerable vendors by mac, but usually wrong (vilvius31)
+- oneshot.py - based on drygdryg
+project with sound and rescan
+- oneshot1.py - without rescan 
+- oneshot2.py - detecting some vulnerable vendors by mac, but usually wrong (vilvius31)
  - [Pixie Dust attack](https://forums.kali.org/showthread.php?24286-WPS-Pixie-Dust-Attack-Offline-WPS-Attack);
  - integrated [3WiFi offline WPS PIN generator](https://3wifi.stascorp.com/wpspin);
  - [online WPS bruteforce](https://sviehb.files.wordpress.com/2011/12/viehboeck_wps.pdf);
