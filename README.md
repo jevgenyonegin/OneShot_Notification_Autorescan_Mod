@@ -1,12 +1,14 @@
-# OneShot for Termux with vibro/sound notification and 10 seconds delay between auto-rescan
+# OneShot for Termux with vibro/sound notification and 10 seconds delay between autorescan
 
 ## FIRST!
 ```
 pkg install play audio
 ```
-## [For sound notification (line #1041) you can use your own audio file "sonar.mp3"]
-https://github.com/jevgenyonegin/OneShot_Notification_Mod/blob/0f398bd999869767c3b81899241baa6d381b2b42/oneshot.py#L1041
-Termux: nano -l +1041 oneshot.py > make changes > Ctrl+o > Ctrl+x or simply replace sonar.mp3 with your *.mp3 file
+## Sound notification file can be changed in 1024 line (default is knock.ogg)
+https://github.com/jevgenyonegin/OneShot_Notification-Autorescan_Mod/blob/c9b4088fa1abc027294d4d58712934318b16446f/oneshot.py#L1024
+
+## Delay can be changed in 1039 line (default is 10)
+https://github.com/jevgenyonegin/OneShot_Notification-Autorescan_Mod/blob/c9b4088fa1abc027294d4d58712934318b16446f/oneshot.py#L1039
 
 # Overview
 **OneShot** performs [Pixie Dust attack](https://forums.kali.org/showthread.php?24286-WPS-Pixie-Dust-Attack-Offline-WPS-Attack) without having to switch to monitor mode.
