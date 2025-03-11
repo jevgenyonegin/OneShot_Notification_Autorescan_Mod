@@ -1038,7 +1038,7 @@ class WiFiScanner:
             elif (self.vuln_list and (model in self.vuln_list)) or self.checkvuln_from_pin_csv("./pins.csv", network['BSSID']):
                 print(colored(line, color='green'))
                 proc = subprocess.Popen('termux-vibrate -f', shell=True)
-                proc = subprocess.Popen('play-audio sonar.mp3', shell=True)
+                proc = subprocess.Popen('play-audio knock.ogg', shell=True)
             else:
                 print(line)
 
