@@ -9,6 +9,7 @@ https://github.com/jevgenyonegin/OneShot_Notification-Autorescan_Mod/blob/c9b408
 
 ## Delay can be changed in 1039 line (default is 10)
 https://github.com/jevgenyonegin/OneShot_Notification-Autorescan_Mod/blob/c9b4088fa1abc027294d4d58712934318b16446f/oneshot.py#L1039
+Use termux wakelock option to keep running with screen off!
 
 # Overview
 **OneShot** performs [Pixie Dust attack](https://forums.kali.org/showthread.php?24286-WPS-Pixie-Dust-Attack-Offline-WPS-Attack) without having to switch to monitor mode.
