@@ -2,7 +2,7 @@
 
 ## FIRST!
 ```
-pkg install play audio
+pkg install play-audio
 ```
 ## Sound notification file can be changed in 1024 line (default is knock.ogg)
 https://github.com/jevgenyonegin/OneShot_Notification-Autorescan_Mod/blob/c9b4088fa1abc027294d4d58712934318b16446f/oneshot.py#L1024
