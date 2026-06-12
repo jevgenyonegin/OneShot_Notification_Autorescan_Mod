@@ -15,8 +15,8 @@ Use termux wakelock option to keep running with screen off!
 **OneShot** performs [Pixie Dust attack](https://forums.kali.org/showthread.php?24286-WPS-Pixie-Dust-Attack-Offline-WPS-Attack) without having to switch to monitor mode.
 # Features
 - oneshot.py - based on drygdryg
-project with notification and rescan
-- oneshot1.py - without rescan 
+project with notification and auto-rescan
+- oneshot1.py - without auto-rescan 
 - oneshot2.py - vilvius31 mod, using bases of known MAC&Pins with notification 
  - [Pixie Dust attack](https://forums.kali.org/showthread.php?24286-WPS-Pixie-Dust-Attack-Offline-WPS-Attack);
  - integrated [3WiFi offline WPS PIN generator](https://3wifi.stascorp.com/wpspin);
