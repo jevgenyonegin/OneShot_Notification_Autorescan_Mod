@@ -1033,7 +1033,7 @@ class WiFiScanner:
             print('[-] No WPS networks found.')
             return
 
-        print("Select target in 5 seconds (Enter to refresh):")
+        print("Select target in 10 seconds (Enter to refresh):")
 
         # Set up a 10-second timeout for input
         i, o, e = select.select([sys.stdin], [], [], 10)
